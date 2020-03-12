@@ -1,0 +1,585 @@
+[
+    {
+        "args":
+        {
+            "characters": "<div class=\"container\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"row\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column column-50 column-offset-25\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<h1>Account Setup</h1>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<?= validation_errors('<div class=\"validation-error\">', '</div>') ?>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<p>Please take a moment to fill out the form below and then hit 'Submit'.</p>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+	{
+		"args":
+		{
+			"characters": "<!-- MilligramCSS Form -->"
+		},
+		"command": "insert"
+	},
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<form action=\"<?= $form_location ?>\" method=\"post\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<fieldset>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Name</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input type=\"text\" value=\"<?= $name ?>\" placeholder=\"Enter your name here\" name=\"name\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Age Range</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<select name=\"age_range\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<option value=\"<?= $age_range ?>\"><?= $age_range_description ?></option>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<?php"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "foreach($age_range_options as $option_key => $option_value) {"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "echo '<option value=\"'.$option_key.'\">'.$option_value.'</option>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "';"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "                        }"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "?>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</select>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Comment</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<textarea name=\"comment\" placeholder=\"Enter your message here\"><?= $comment ?></textarea>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"float-right\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input type=\"checkbox\" name=\"sent_to_self\" value=\"1\"<?php"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "if ($send_to_self == 1) {"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "    echo 'selected';"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "?>>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "<label class=\"label-inline\">Send a copy to yourself</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input class=\"button-primary\" type=\"submit\" name=\"submit\" value=\"Submit\"> "
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input class=\"button-outline\" type=\"submit\" name=\"submit\" value=\"Cancel\"> "
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</fieldset>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</form>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    }
+]

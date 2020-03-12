@@ -1,0 +1,824 @@
+[
+    {
+        "args":
+        {
+            "characters": "<!DOCTYPE html>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<html lang=\"en\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<head>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+		"args": null,
+		"command": "left_delete"
+	},
+    {
+        "args":
+        {
+            "characters": "<meta charset=\"UTF-8\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<title>SkeletonCSS</title>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<link rel=\"stylesheet\" href=\"//fonts.googleapis.com/css?family=Raleway:400,300,600\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<link rel=\"stylesheet\" href=\"<?= base_url() ?>css/normalize.css\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<link rel=\"stylesheet\" href=\"<?= base_url() ?>css/skeleton.css\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<link rel=\"stylesheet\" href=\"<?= base_url() ?>css/custom.css\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<link rel=\"icon\" type=\"image/png\" href=\"<?= base_url() ?>images/favicon.png\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+	{
+		"args":
+		{
+			"characters": "<?php"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "if (isset($css_files)) {"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "foreach ($css_files as $css_file) {"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "echo '    <link href=\"'.$css_file.'\" rel=\"stylesheet\">"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "';"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "    }"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "}"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "}"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "if (isset($js_files_top)) {"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "foreach ($js_files_top as $js_files_top) {"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "echo '    <script src=\"'.$js_files_top.'\"></script>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "';"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "    }"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "}"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "}"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "?>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "</head>"
+		},
+		"command": "insert"
+	},
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<body>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"container\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"row\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"one-half column\" style=\"margin-top: 25%\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<?php"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "if (isset($view_file)) {"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "    $this->load->view($view_module.'/'.$view_file);"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "?>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    	{
+		"args":
+		{
+			"characters": "<?php"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "if (isset($js_files_btm)) {"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "foreach ($js_files_btm as $js_file_btm) {"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "echo '   <script src=\"'.$js_file_btm.'\"></script>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "';"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "        }"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "    }"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "?>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "</body>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "</html>"
+		},
+		"command": "insert"
+	}
+]

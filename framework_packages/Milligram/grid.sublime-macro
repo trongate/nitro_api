@@ -1,0 +1,143 @@
+[
+    {
+        "args":
+        {
+            "characters": "<div class=\"container\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"row\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column\">.column</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column\">.column</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column\">.column</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column\">.column</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column\">.column</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column column-50 column-offset-25\">.column column-50 column-offset-25</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    }
+]
+

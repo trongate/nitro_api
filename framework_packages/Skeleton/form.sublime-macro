@@ -1,0 +1,464 @@
+[
+	{
+		"args":
+		{
+			"characters": "<!-- SkeletonCSS Form -->"
+		},
+		"command": "insert"
+	},
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<form action=\"<?= $form_location ?>\" method=\"post\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"row\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"six columns\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Name</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input class=\"u-full-width\" type=\"text\" value=\"<?= $name ?>\" placeholder=\"Enter your name here\" name=\"name\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"six columns\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Age Range</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<select class=\"u-full-width\" name=\"age_range\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<option value=\"<?= $age_range ?>\"><?= $age_range_description ?></option>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<?php"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "foreach($age_range_options as $option_key => $option_value) {"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "echo '<option value=\"'.$option_key.'\">'.$option_value.'</option>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "';"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "                }"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "?>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</select>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Comment</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<textarea class=\"u-full-width\" name=\"comment\" placeholder=\"Enter your message here\"><?= $comment ?></textarea>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label class=\"example-send-yourself-copy\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input type=\"checkbox\" name=\"sent_to_self\" value=\"1\"<?php"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "if ($send_to_self == 1) {"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "echo 'selected';"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "?>>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<span class=\"label-body\">Send a copy to yourself</span>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input class=\"button-primary\" type=\"submit\" name=\"submit\" value=\"Submit\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    
+    {
+        "args":
+        {
+            "characters": "</form>"
+        },
+        "command": "insert"
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "args":
+        {
+            "characters": "<!-- alternative table layout using SkeletonCSS -->\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<table class=\"u-full-width\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<thead>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<tr>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Name</th>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Age</th>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Height</th>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Location</th>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</tr>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</thead>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<tbody>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<?php\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "foreach($query->result() as $row) {\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "$var = $row->var;\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "?>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<tr>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td><?= $var ?></td>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td>Age</td>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td>Height</td>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td>Location</td>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</tr>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<?php\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "}\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "?>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</thead>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</table>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "html_beautify"
+    }
+]

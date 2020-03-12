@@ -1,0 +1,261 @@
+[
+	{
+		"args":
+		{
+			"characters": "<!-- sample table layout with MilligramCSS -->"
+		},
+		"command": "insert"
+	},
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<table>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<thead>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<tr>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Name</th>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Age</th>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Height</th>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<th>Location</th>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</tr>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</thead>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<tbody>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<tr>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td>Name</td>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td>Age</td>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td>Height</td>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<td>Location</td>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</tr>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</thead>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</table>"
+        },
+        "command": "insert"
+    },
+]

@@ -1,0 +1,289 @@
+[
+	{
+		"args":
+		{
+			"characters": "<!-- MilligramCSS login form -->"
+		},
+		"command": "insert"
+	},
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"off-white\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"container row4\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"row\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<div class=\"column column-50 column-offset-25 stage\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<h1>Member Login</h1>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<?= validation_errors('<div class=\"validation-error\">', '</div>') ?>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<p>Enter your username and password then hit 'Submit'.</p>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<form action=\"<?= base_url() ?>system_users/submit_login\" method=\"post\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Username</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input type=\"text\" name=\"username\" placeholder=\"Enter your username here\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<label>Password</label>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input type=\"password\" name=\"pword\" placeholder=\"Enter your password here\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<input type=\"submit\" name=\"submit\" value=\"Submit\"> "
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<input class=\"button-outline\" name=\"submit\" type=\"submit\" value=\"Cancel\">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</form>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<p class=\"center\"><a href=\"<?= base_url() ?>recover_password\">Forgotten your password?</a></p>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "</div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    }
+]

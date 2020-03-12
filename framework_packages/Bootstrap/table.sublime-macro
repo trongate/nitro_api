@@ -1,0 +1,94 @@
+[
+	{
+		"args":
+		{
+			"characters": "<!-- table example using Bootstrap 4 - for more examples, visit https://getbootstrap.com/docs/4.0/content/tables/ -->"
+		},
+		"command": "insert"
+	},
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<table class=\"table\">\n<thead class=\"thead-dark\">\n<tr>\n<th scope=\"col\">#</th>\n<th scope=\"col\">First</th>\n<th scope=\"col\">Last</th>\n<th scope=\"col\">Handle</th>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+
+    {
+        "args":
+        {
+            "characters": "</tr>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</thead>\n<tbody>\n<tr>\n<th scope=\"row\">1</th>\n<td>Mark</td>\n<td>Otto</td>\n<td>@mdo</td>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</tr>\n<tr>\n<th scope=\"row\">2</th>\n<td>Jacob</td>\n<td>Thornton</td>\n<td>@fat</td>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</tr>\n<tr>\n<th scope=\"row\">3</th>\n<td>Larry</td>\n<td>the Bird</td>\n<td>@twitter</td>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</tr>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "</tbody>\n</table>"
+        },
+        "command": "insert"
+    }
+]
