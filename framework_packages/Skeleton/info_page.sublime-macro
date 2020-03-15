@@ -41,6 +41,10 @@
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
         "args":
         {
@@ -62,6 +66,10 @@
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
         "args":
         {
@@ -69,6 +77,12 @@
         },
         "command": "insert"
     },
+
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+
     {
         "args":
         {
@@ -76,6 +90,10 @@
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
         "args":
         {
@@ -167,15 +185,15 @@
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
         "args":
         {
-            "characters": "-->\n"
+            "characters": "-->"
         },
         "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "html_beautify"
     }
 ]

@@ -1,209 +1,192 @@
 [
-    {
-        "args":
-        {
-            "characters": "<!-- SkeletonCSS contact us form -->\n"
-        },
-        "command": "insert"
+  {
+    "args": {
+      "characters": "<!-- SkeletonCSS contact us form -->\n"
     },
-    {
-        "args":
-        {
-            "characters": "<div class=\"container\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<div class=\"container\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<form action=\"<?= $form_location ?>\" method=\"post\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<form action=\"<?= $form_location ?>\" method=\"post\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<div class=\"row\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<div class=\"row\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<div class=\"six columns\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<div class=\"six columns\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
     },
-    {
-        "args":
-        {
-            "characters": "<h1>Contact Us</h1>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<h1>Contact Us</h1>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<?= validation_errors('<div class=\"validation-error\">', '</div>') ?>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<?= validation_errors('<div class=\"validation-error\">', '</div>') ?>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<p>Please fill out the form below and then hit 'Submit'</p>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<p>Please fill out the form below and then hit 'Submit'</p>\n"
     },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
     },
-    {
-        "args":
-        {
-            "characters": "<label>Name</label>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<label>Name</label>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input type=\"text\" value=\"<?= $your_name ?>\" class=\"u-full-width\" name=\"your_name\" placeholder=\"Enter your name here\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input type=\"text\" value=\"<?= $your_name ?>\" class=\"u-full-width\" name=\"your_name\" placeholder=\"Enter your name here\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
     },
-    {
-        "args":
-        {
-            "characters": "<label>Email Address</label>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<label>Email Address</label>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input type=\"email\" value=\"<?= $email ?>\" class=\"u-full-width\" name=\"email\" placeholder=\"Enter your contact email address here\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input type=\"email\" value=\"<?= $email ?>\" class=\"u-full-width\" name=\"email\" placeholder=\"Enter your contact email address here\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
     },
-    {
-        "args":
-        {
-            "characters": "<label>Telephone Number</label>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<label>Telephone Number</label>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input type=\"text\" value=\"<?= $telnum ?>\" class=\"u-full-width\" name=\"telnum\" placeholder=\"Enter your contact telephone number here\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input type=\"text\" value=\"<?= $telnum ?>\" class=\"u-full-width\" name=\"telnum\" placeholder=\"Enter your contact telephone number here\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
     },
-    {
-        "args":
-        {
-            "characters": "<label for=\"exampleMessage\">Message</label>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<label for=\"exampleMessage\">Message</label>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<textarea class=\"u-full-width\" placeholder=\"Hi Dave …\" id=\"exampleMessage\"><?= $message ?></textarea>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<textarea class=\"u-full-width\" placeholder=\"Hi Dave …\" id=\"exampleMessage\"><?= $message ?></textarea>\n"
     },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
     },
-    {
-        "args":
-        {
-            "characters": "<input class=\"button-primary\" name=\"submit\" type=\"submit\" value=\"Submit\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input class=\"button-primary\" name=\"submit\" type=\"submit\" value=\"Submit\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input class=\"button\" name=\"submit\" type=\"submit\" value=\"Cancel\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input class=\"button\" name=\"submit\" type=\"submit\" value=\"Cancel\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
     },
-    {
-        "args":
-        {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</div>\n"
     },
-    {
-        "args":
-        {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</div>\n"
     },
-    {
-        "args":
-        {
-            "characters": "</form>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</form>\n"
     },
-    {
-        "args":
-        {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</div>"
     },
-    {
-        "args": null,
-        "command": "html_beautify"
-    }
+    "command": "insert"
+  }
 ]

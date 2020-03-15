@@ -75,9 +75,5 @@
             "characters": "<input class=\"button-primary\" type=\"button\" value=\"button input\">\n"
         },
         "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "html_beautify"
     }
 ]

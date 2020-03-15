@@ -1,50 +1,40 @@
 [
-	{
-		"args":
-		{
-			"characters": "<!-- horizontal login form for skeletonCSS -->"
-		},
-		"command": "insert"
-	},
     {
         "args":
         {
-            "characters": "\n"
+            "characters": "/* Extending The Buttons */"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<div class=\"row3\">"
+            "characters": "\n\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "\n"
+            "characters": "/* Custom color */\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<div class=\"container\">"
+            "characters": ".button-black {\n"
         },
         "command": "insert"
     },
     {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
+        "args": null,
+        "command": "left_delete"
     },
     {
         "args":
         {
-            "characters": "<div class=\"twelve columns\" style=\"min-height: 1000px; padding-top: 7em;\">"
+            "characters": "    background-color: black;"
         },
         "command": "insert"
     },
@@ -58,7 +48,7 @@
     {
         "args":
         {
-            "characters": "<h1>Member Login</h1>"
+            "characters": "border-color: black;"
         },
         "command": "insert"
     },
@@ -72,7 +62,32 @@
     {
         "args":
         {
-            "characters": "<?= validation_errors(\"<p style='color: red;'>\", \"</p>\") ?>"
+            "characters": "}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "\n.button-black.button-clear,\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": ".button-black.button-outline {"
         },
         "command": "insert"
     },
@@ -86,7 +101,7 @@
     {
         "args":
         {
-            "characters": "<p>Please login to the private members' area by submitting your username and password.</p>"
+            "characters": "background-color: transparent;"
         },
         "command": "insert"
     },
@@ -100,7 +115,7 @@
     {
         "args":
         {
-            "characters": "<form style=\"margin-top: 3em;\" action=\"<?= base_url() ?>system_users/submit_login\" method=\"post\">"
+            "characters": "color: black;"
         },
         "command": "insert"
     },
@@ -114,7 +129,46 @@
     {
         "args":
         {
-            "characters": "<div class=\"row\">"
+            "characters": "}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+
+
+
+
+
+
+
+    {
+        "args":
+        {
+            "characters": ".button-black.button-clear {"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "    border-color: transparent;"
         },
         "command": "insert"
     },
@@ -128,7 +182,14 @@
     {
         "args":
         {
-            "characters": "<div style=\"margin: 3px;\" class=\"four columns\">"
+            "characters": "}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
         },
         "command": "insert"
     },
@@ -142,7 +203,7 @@
     {
         "args":
         {
-            "characters": "<label for=\"exampleEmailInput\">Username</label>"
+            "characters": "/* Custom size */"
         },
         "command": "insert"
     },
@@ -156,7 +217,25 @@
     {
         "args":
         {
-            "characters": "<input class=\"u-full-width\" type=\"text\" name=\"username\" placeholder=\"username\">"
+            "characters": ".button-small {\nfont-size: .8rem;\nheight: 2.8rem;\nline-height: 2.8rem;\npadding: 0 1.5rem;\n}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
         },
         "command": "insert"
     },
@@ -170,7 +249,32 @@
     {
         "args":
         {
-            "characters": "</div>"
+            "characters": ".button-large {\nfont-size: 1.4rem;\nheight: 4.5rem;\nline-height: 4.5rem;\npadding: 0 2rem;\n}"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "/* Example of large button (two different methods) */"
         },
         "command": "insert"
     },
@@ -184,7 +288,14 @@
     {
         "args":
         {
-            "characters": "<div style=\"margin: 3px;\" class=\"four columns\">"
+            "characters": "\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<a class=\"button button-large\" href=\"\">.button-large</a>"
         },
         "command": "insert"
     },
@@ -198,7 +309,7 @@
     {
         "args":
         {
-            "characters": "<label for=\"exampleEmailInput\">Password</label>"
+            "characters": "<button class=\"button-large\">Large Button</button>"
         },
         "command": "insert"
     },
@@ -212,7 +323,7 @@
     {
         "args":
         {
-            "characters": "<input class=\"u-full-width\" type=\"password\" name=\"pword\" placeholder=\"username\">"
+            "characters": "<button>Default Button</button> (for comparison)"
         },
         "command": "insert"
     },
@@ -223,88 +334,4 @@
         },
         "command": "insert"
     },
-    {
-        "args":
-        {
-            "characters": "</div>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "</div>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "</form>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "</div>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "</div>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "</div>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    }
 ]

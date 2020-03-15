@@ -97,6 +97,10 @@
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
         "args":
         {
@@ -111,6 +115,10 @@
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
         "args":
         {
@@ -132,6 +140,34 @@
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+    {
+        "args":
+        {
+            "characters": "</div>\n"
+        },
+        "command": "insert"
+    },
+
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+
+    {
+        "args":
+        {
+            "characters": "</div>\n"
+        },
+        "command": "insert"
+    },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
         "args":
         {
@@ -142,14 +178,7 @@
     {
         "args":
         {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "</div>\n"
+            "characters": "\n"
         },
         "command": "insert"
     },
@@ -163,7 +192,21 @@
     {
         "args":
         {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
             "characters": "Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes)\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
         },
         "command": "insert"
     },
@@ -212,12 +255,19 @@
     {
         "args":
         {
-            "characters": "-->\n"
+            "characters": "\n"
         },
         "command": "insert"
     },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
     {
-        "args": null,
-        "command": "html_beautify"
+        "args":
+        {
+            "characters": "-->"
+        },
+        "command": "insert"
     }
 ]

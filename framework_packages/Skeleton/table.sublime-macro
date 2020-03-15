@@ -2,180 +2,576 @@
     {
         "args":
         {
-            "characters": "<!-- SkeletonCSS table example -->\n"
+            "characters": "<!--"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<table class=\"u-full-width\">\n"
+            "characters": " Skele"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<thead>\n"
+            "characters": "tonCSS"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<tr>\n"
+            "characters": " table"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<th>Name</th>\n"
+            "characters": " example"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<th>Age</th>\n"
+            "characters": " -->"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<th>Sex</th>\n"
+            "characters": "\n<ta"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<th>Location</th>\n"
+            "characters": "ble"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "</tr>\n"
+            "characters": " class="
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "</thead>\n"
+            "contents": "\"$0\""
+        },
+        "command": "insert_snippet"
+    },
+    {
+        "args":
+        {
+            "characters": "u-full"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<tbody>\n"
+            "characters": "-width"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<tr>\n"
+            "by": "characters",
+            "forward": true
+        },
+        "command": "move"
+    },
+    {
+        "args":
+        {
+            "characters": ">"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>Dave Gamache</td>\n"
+            "characters": "\n<"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>26</td>\n"
+            "characters": "th"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>Male</td>\n"
+            "characters": "ead"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>San Francisco</td>\n"
+            "characters": ">"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "</tr>\n"
+            "characters": "\n<tr>"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<tr>\n"
+            "characters": "\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>Dwayne Johnson</td>\n"
+            "characters": "<th"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>42</td>\n"
+            "characters": ">Name"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>Male</td>\n"
+            "characters": "<"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "<td>Hayward</td>\n"
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<th"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "</tr>\n"
+            "characters": ">A"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "</tbody>\n"
+            "characters": "ge<"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "</table>\n"
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<th"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": ">Sex"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "/"
         },
         "command": "insert"
     },
     {
         "args": null,
-        "command": "html_beautify"
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<t"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "h>L"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "ocation"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<tn"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "body>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<t"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "r>"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "td>Dav"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "id"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": " Gama"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "che<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<td"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": ">26"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<td"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": ">male<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n<td"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": ">"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "San"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": " Fran"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "cisco"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
+    },
+    {
+        "args":
+        {
+            "characters": "\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "<"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "insert_slash": true
+        },
+        "command": "close_tag"
     }
 ]

@@ -1,29 +1,57 @@
 [
+	{
+		"args":
+		{
+			"characters": "/* Extending The Buttons */"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "/* Custom color */"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ".button-black {"
+		},
+		"command": "insert"
+	},
     {
         "args":
         {
-            "characters": "/* Extending The Buttons */"
+            "characters": "\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "\n\n"
+            "characters": "    background-color: black;\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "/* Custom color */\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".button-black {\n"
+            "characters": "border-color: black;\n"
         },
         "command": "insert"
     },
@@ -34,9 +62,13 @@
     {
         "args":
         {
-            "characters": "    background-color: black;"
+            "characters": "}\n\n"
         },
         "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
     },
     {
         "args":
@@ -48,14 +80,106 @@
     {
         "args":
         {
-            "characters": "border-color: black;"
+            "characters": ".button-black.button-clear,\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "\n"
+            "characters": ".button-black.button-outline {\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "    background-color: transparent;\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "color: black;\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "}\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": ".button-black.button-clear {\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "    border-color: transparent;\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args":
+        {
+            "characters": "}\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "/* Custom size */\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": ".button-small {\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "    font-size: .8rem;\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "height: 2.8rem;\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "line-height: 2.8rem;\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args":
+        {
+            "characters": "padding: 0 1.5rem;\n"
         },
         "command": "insert"
     },
@@ -74,90 +198,37 @@
         "command": "insert"
     },
     {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
         "args":
         {
-            "characters": "\n.button-black.button-clear,\n"
+            "characters": ".button-large {\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": ".button-black.button-outline {"
+            "characters": "    font-size: 1.4rem;\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "\n"
+            "characters": "height: 4.5rem;\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "background-color: transparent;"
+            "characters": "line-height: 4.5rem;\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "color: black;"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "}"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n\n"
-        },
-        "command": "insert"
-    },
-
-
-
-
-
-
-
-    {
-        "args":
-        {
-            "characters": ".button-black.button-clear {"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
+            "characters": "padding: 0 2rem;\n"
         },
         "command": "insert"
     },
@@ -168,155 +239,28 @@
     {
         "args":
         {
-            "characters": "    border-color: transparent;"
+            "characters": "}\n\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "\n"
+            "characters": "/* Example of large button (two different methods) */\n\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "}"
+            "characters": "<a class=\"button button-large\" href=\"\">.button-large</a>\n"
         },
         "command": "insert"
     },
     {
         "args":
         {
-            "characters": "\n\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "/* Custom size */"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".button-small {\nfont-size: .8rem;\nheight: 2.8rem;\nline-height: 2.8rem;\npadding: 0 1.5rem;\n}"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args":
-        {
-            "characters": "\n\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".button-large {\nfont-size: 1.4rem;\nheight: 4.5rem;\nline-height: 4.5rem;\npadding: 0 2rem;\n}"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args":
-        {
-            "characters": "\n\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "/* Example of large button (two different methods) */"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "<a class=\"button button-large\" href=\"\">.button-large</a>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "<button class=\"button-large\">Large Button</button>"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
+            "characters": "<button class=\"button-large\">Large Button</button>\n"
         },
         "command": "insert"
     },
@@ -326,12 +270,6 @@
             "characters": "<button>Default Button</button> (for comparison)"
         },
         "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
+    }
+
 ]
