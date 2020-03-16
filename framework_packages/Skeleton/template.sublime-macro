@@ -43,13 +43,13 @@
   },
   {
     "args": {
-      "characters": "<link rel=\"stylesheet\" href=\"<?= base_url() ?>css/normalize.css\">\n"
+      "characters": "<link rel=\"stylesheet\" href=\"<?= BASE_URL ?>css/normalize.css\">\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<link rel=\"stylesheet\" href=\"<?= base_url() ?>css/skeleton.css\">\n"
+      "characters": "<link rel=\"stylesheet\" href=\"<?= BASE_URL ?>css/skeleton.css\">\n"
     },
     "command": "insert"
   },
@@ -61,13 +61,13 @@
   },
   {
     "args": {
-      "characters": "<link rel=\"stylesheet\" href=\"<?= base_url() ?>css/custom.css\">\n"
+      "characters": "<link rel=\"stylesheet\" href=\"<?= BASE_URL ?>css/custom.css\">\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<link rel=\"icon\" type=\"image/png\" href=\"<?= base_url() ?>images/favicon.png\">\n"
+      "characters": "<link rel=\"icon\" type=\"image/png\" href=\"<?= BASE_URL ?>images/favicon.png\">\n"
     },
     "command": "insert"
   },
@@ -81,7 +81,6 @@
     },
     "command": "insert"
   },
-
   {
     "args": {
       "characters": "<body>\n"
@@ -89,8 +88,12 @@
     "command": "insert"
   },
   {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
     "args": {
-      "characters": "<!-- .container is main centered wrapper -->\n"
+      "characters": "    <!-- .container is main centered wrapper -->\n"
     },
     "command": "insert"
   },
@@ -101,8 +104,12 @@
     "command": "insert"
   },
   {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
     "args": {
-      "characters": "<!-- columns should be the immediate child of a .row -->\n"
+      "characters": "    <!-- columns should be the immediate child of a .row -->\n"
     },
     "command": "insert"
   },
@@ -169,8 +176,12 @@
     "command": "insert"
   },
   {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
     "args": {
-      "characters": "<!-- there are a few shorthand columns widths as well -->\n"
+      "characters": "    <!-- there are a few shorthand columns widths as well -->\n"
     },
     "command": "insert"
   },
@@ -241,14 +252,14 @@
     "command": "insert"
   },
   {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
     "args": {
       "characters": "<!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->\n"
     },
     "command": "insert"
-  },
-  {
-    "args": null,
-    "command": "left_delete"
   },
   {
     "args": {

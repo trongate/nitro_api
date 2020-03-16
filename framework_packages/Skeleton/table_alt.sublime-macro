@@ -1,899 +1,172 @@
 [
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "!--"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " alternativ"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "e"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " table"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " layout"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " using"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " Skeleton"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "CSS"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " --"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": ">"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<table"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " class="
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"contents": "\"$0\""
-		},
-		"command": "insert_snippet"
-	},
-	{
-		"args":
-		{
-			"characters": "u-ful"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "l-width"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"characters": ">"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<t"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "head>"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<tr"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": ">"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<t"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "h>Name"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<t"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "h>Ag"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "e<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<th"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": ">Height<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<t"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "h>Loca"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "tion<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<t"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "body>"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args":
-		{
-			"characters": "<?php"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " "
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\nforeach"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"contents": "($0)"
-		},
-		"command": "insert_snippet"
-	},
-	{
-		"args":
-		{
-			"characters": "$rows"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "-"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": ">result"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"contents": "($0)"
-		},
-		"command": "insert_snippet"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"characters": " as"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " $row"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"characters": " "
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"contents": "{$0}"
-		},
-		"command": "insert_snippet"
-	},
-	{
-		"args":
-		{
-			"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
-		},
-		"command": "run_macro_file"
-	},
-	{
-		"args":
-		{
-			"characters": "$var"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " ="
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " $row"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "->var"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": ";"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n?>"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<tr>"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<td"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "><?"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "="
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " $va"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "r"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " ?><"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<td>"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "Age<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<td"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": ">Height"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<t"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "d>"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "Location"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args":
-		{
-			"characters": "<?p"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "hp"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": " "
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"by": "lines",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "?>"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "\n<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "tbod"
-		},
-		"command": "insert"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args": null,
-		"command": "expand_abbreviation_by_tab"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "characters",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args": null,
-		"command": "left_delete"
-	},
-	{
-		"args":
-		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
-	}
+  {
+    "args": {
+      "characters": "<!-- alternative table layout using SkeletonCSS -->\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<table class=\"u-full-width\">\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<thead>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<tr>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<th>Name</th>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<th>Age</th>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<th>Height</th>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<th>Location</th>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</tr>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</thead>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<tbody>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<?php \n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "foreach ($rows as $row) {\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "?>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<tr>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<td><?= $row->var ?></td>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<td>Age</td>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<td>Height</td>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<td>Location</td>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</tr>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "<?php\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "}\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "?>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</tbody>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "</table>"
+    },
+    "command": "insert"
+  }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "args": {
-      "characters": "<!-- SkeletonCSS Form example -->\n"
+      "characters": "<!-- SkeletonCSS Sample Form -->\n"
     },
     "command": "insert"
   },
@@ -82,6 +82,10 @@
     "command": "insert"
   },
   {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
     "args": {
       "characters": "</select>\n"
     },
@@ -138,6 +142,10 @@
     "command": "insert"
   },
   {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
     "args": {
       "characters": "</label>\n"
     },
@@ -155,7 +163,35 @@
   },
   {
     "args": {
-      "characters": "</form>"
+      "characters": "</form>\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<!-- Always wrap checkbox and radio inputs in a label and use a <span class=\"label-body\"> inside of it -->\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": ""
+    },
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->"
     },
     "command": "insert"
   }

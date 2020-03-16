@@ -208,10 +208,6 @@
     "command": "insert"
   },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
     "args": {
       "characters": "<!-- \n"
     },
@@ -243,7 +239,7 @@
   },
   {
     "args": {
-      "characters": ".offset-by-one\n"
+      "characters": "        .offset-by-one\n"
     },
     "command": "insert"
   },
@@ -276,6 +272,18 @@
       "characters": ""
     },
     "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
   },
   {
     "args": {

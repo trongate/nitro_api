@@ -25,7 +25,7 @@
   },
   {
     "args": {
-      "characters": "<input type=\"button\" value=\"button input\">\n"
+      "characters": "<input type=\"button\" value=\"button input\">\n\n\n"
     },
     "command": "insert"
   },

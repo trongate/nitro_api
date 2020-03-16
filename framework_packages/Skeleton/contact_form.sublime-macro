@@ -37,12 +37,6 @@
   },
   {
     "args": {
-      "characters": "<?= validation_errors('<div class=\"validation-error\">', '</div>') ?>\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": {
       "characters": "<p>Please fill out the form below and then hit 'Submit'</p>\n"
     },
     "command": "insert"
@@ -91,7 +85,7 @@
   },
   {
     "args": {
-      "characters": "<textarea class=\"u-full-width\" placeholder=\"Hi Dave …\" id=\"exampleMessage\"><?= $message ?></textarea>\n"
+      "characters": "<textarea class=\"u-full-width\" placeholder=\"Hi Dave …\"><?= $message ?></textarea>\n"
     },
     "command": "insert"
   },
