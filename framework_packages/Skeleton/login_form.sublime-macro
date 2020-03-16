@@ -1,273 +1,148 @@
 [
-    {
-        "args":
-        {
-            "characters": "<!-- login form with SkeletonCSS -->\n"
-        },
-        "command": "insert"
+  {
+    "args": {
+      "characters": "<!-- login form with SkeletonCSS -->\n"
     },
-    {
-        "args":
-        {
-            "characters": "<div class=\"container\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<div class=\"container\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<div class=\"row\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<div class=\"row\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<div class=\"ten columns offset-by-one\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<div class=\"ten columns offset-by-one\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<h1>Member Login</h1>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<h1>Member Login</h1>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<?= validation_errors('<div class=\"validation-error\">', '</div>') ?>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<p>Enter your username and password then hit 'Submit'.</p>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<p>Enter your username and password then hit 'Submit'.</p>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<form action=\"<?= $form_location ?>\" method=\"post\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<form action=\"<?= base_url() ?>system_users/submit_login\" method=\"post\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<label>Username</label>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<label>Username</label>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input type=\"text\" class=\"u-full-width\" name=\"username\" placeholder=\"Enter your username here\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input type=\"text\" class=\"u-full-width\" name=\"username\" placeholder=\"Enter your username here\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<label>Password</label>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<label>Password</label>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input type=\"password\" class=\"u-full-width\" name=\"pword\" placeholder=\"Enter your password here\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input type=\"password\" class=\"u-full-width\" name=\"pword\" placeholder=\"Enter your password here\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input class=\"button-primary\" name=\"submit\" type=\"submit\" value=\"Submit\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input class=\"button-primary\" name=\"submit\" type=\"submit\" value=\"Submit\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<input class=\"button\" name=\"submit\" type=\"submit\" value=\"Cancel\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "<input class=\"button\" name=\"submit\" type=\"submit\" value=\"Cancel\">\n"
-        },
-        "command": "insert"
-    },
+    "command": "insert"
+  },
   {
     "args": null,
     "command": "left_delete"
   },
-    {
-        "args":
-        {
-            "characters": "</form>\n"
-        },
-        "command": "insert"
+  {
+    "args": {
+      "characters": "</form>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<p class=\"center\"><a href=\"<?= base_url() ?>recover_password\">Forgotten your password?</a></p>\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<p class=\"center\"><a href=\"#\">Forgotten your password?</a></p>\n"
     },
+    "command": "insert"
+  },
   {
     "args": null,
     "command": "left_delete"
   },
-    {
-        "args":
-        {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
+  {
+    "args": {
+      "characters": "</div>\n"
     },
-    {
-        "args":
-        {
-            "characters": "<div class=\"eleven columns\">\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "<div class=\"eleven columns\">\n"
     },
-    {
-        "args":
-        {
-            "characters": "Eleven\n"
-        },
-        "command": "insert"
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "Eleven columns\n"
     },
+    "command": "insert"
+  },
   {
     "args": null,
     "command": "left_delete"
   },
-    {
-        "args":
-        {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
+  {
+    "args": {
+      "characters": "</div>\n"
     },
-
+    "command": "insert"
+  },
   {
     "args": null,
     "command": "left_delete"
   },
-
-    {
-        "args":
-        {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
+  {
+    "args": {
+      "characters": "</div>\n"
     },
+    "command": "insert"
+  },
   {
     "args": null,
     "command": "left_delete"
   },
-    {
-        "args":
-        {
-            "characters": "</div>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "<!--\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes)\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "OFFSETS:\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".offset-by-one\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".offset-by-eleven\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".offset-by-one-third\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".offset-by-two-thirds\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": ".offset-by-half\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args":
-        {
-            "characters": "\n"
-        },
-        "command": "insert"
-    },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-    {
-        "args":
-        {
-            "characters": "-->"
-        },
-        "command": "insert"
-    }
+    "args": {
+      "characters": "</div>"
+    },
+    "command": "insert"
+  }
 ]

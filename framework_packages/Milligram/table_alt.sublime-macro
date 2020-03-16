@@ -163,7 +163,7 @@
     {
         "args":
         {
-            "characters": "\nforeach($query->result() as $row) {"
+            "characters": "\nforeach($rows as $row) {"
         },
         "command": "insert"
     },
