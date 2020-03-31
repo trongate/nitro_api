@@ -1,13 +1,13 @@
 [
   {
     "args": {
-      "characters": "<!--Milligram Alternative table -->\n"
+      "characters": "<!-- alternative table layout using Milligram -->\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<table>\n"
+      "characters": "<table class=\"u-full-width\">\n"
     },
     "command": "insert"
   },
@@ -25,25 +25,25 @@
   },
   {
     "args": {
-      "characters": "<th>Item Name</th>\n"
+      "characters": "<th>Name</th>\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<th>Inventory</th>\n"
+      "characters": "<th>Age</th>\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<th>Item Price</th>\n"
+      "characters": "<th>Height</th>\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<th>Action</th>\n"
+      "characters": "<th>Location</th>\n"
     },
     "command": "insert"
   },
@@ -68,12 +68,8 @@
     "command": "insert"
   },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
     "args": {
-      "characters": "    <tbody>\n"
+      "characters": "<tbody>\n"
     },
     "command": "insert"
   },
@@ -107,25 +103,25 @@
   },
   {
     "args": {
-      "characters": "<td><?= $row->$item_name ?></td>\n"
+      "characters": "<td><?= $row->name ?></td>\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<td><?= $row->inventory ?></td>\n"
+      "characters": "<td><?= $row->age ?></td>\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<td><?= $row->item_price ?></td>\n"
+      "characters": "<td><?= $row->height ?></td>\n"
     },
     "command": "insert"
   },
   {
     "args": {
-      "characters": "<td><a class=\"button button-small\" href=\"#\">View</a></td>\n"
+      "characters": "<td><?= $row->location ?></td>\n"
     },
     "command": "insert"
   },
@@ -138,6 +134,10 @@
       "characters": "</tr>\n"
     },
     "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
   },
   {
     "args": {
@@ -158,78 +158,14 @@
     "command": "insert"
   },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
     "args": {
       "characters": "</tbody>\n"
     },
     "command": "insert"
   },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
     "args": {
-      "characters": "</table>\n\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": {
-      "characters": "<style>\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
-    "args": {
-      "characters": ".button-small {\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": {
-      "characters": "font-size: .8rem;\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": {
-      "characters": "height: 2.8rem;\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": {
-      "characters": "line-height: 2.8rem;\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": {
-      "characters": "padding: 0 1.5rem;\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
-    "args": {
-      "characters": "}\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": {
-      "characters": "</style>"
+      "characters": "</table>"
     },
     "command": "insert"
   }

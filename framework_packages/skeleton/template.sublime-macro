@@ -88,12 +88,8 @@
     "command": "insert"
   },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
     "args": {
-      "characters": "    <!-- .container is main centered wrapper -->\n"
+      "characters": "<!-- .container is main centered wrapper -->\n"
     },
     "command": "insert"
   },
@@ -104,12 +100,8 @@
     "command": "insert"
   },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
     "args": {
-      "characters": "\n    <!-- columns should be the immediate child of a .row -->\n"
+      "characters": "<!-- columns should be the immediate child of a .row -->\n"
     },
     "command": "insert"
   },
@@ -171,17 +163,13 @@
   },
   {
     "args": {
-      "characters": "</div>\n"
+      "characters": "</div>\n\n"
     },
     "command": "insert"
   },
   {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
     "args": {
-      "characters": "\n    <!-- there are a few shorthand columns widths as well -->\n"
+      "characters": "<!-- there are a few shorthand columns widths as well -->\n"
     },
     "command": "insert"
   },
@@ -237,16 +225,6 @@
   },
   {
     "args": {
-      "characters": "</div>\n\n"
-    },
-    "command": "insert"
-  },
-  {
-    "args": null,
-    "command": "left_delete"
-  },
-  {
-    "args": {
       "characters": "</div>\n"
     },
     "command": "insert"
@@ -257,7 +235,7 @@
   },
   {
     "args": {
-      "characters": "\n    <!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->\n\n"
+      "characters": "</div>\n"
     },
     "command": "insert"
   },
