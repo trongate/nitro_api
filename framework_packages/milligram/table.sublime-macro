@@ -1,13 +1,13 @@
 [
     {
         "args": {
-            "characters": "<!-- SkeletonCSS table example -->\n"
+            "characters": "<!-- table example using Milligram -->\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<table class=\"u-full-width\">\n"
+            "characters": "<table>\n"
         },
         "command": "insert"
     },

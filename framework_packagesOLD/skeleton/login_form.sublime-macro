@@ -104,6 +104,28 @@
     "command": "insert"
   },
   {
+    "args": {
+      "characters": "<div class=\"eleven columns\">\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": {
+      "characters": "Eleven columns\n"
+    },
+    "command": "insert"
+  },
+  {
+    "args": null,
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "characters": "</div>\n"
+    },
+    "command": "insert"
+  },
+  {
     "args": null,
     "command": "left_delete"
   },

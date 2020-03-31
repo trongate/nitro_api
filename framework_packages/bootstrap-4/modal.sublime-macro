@@ -1,49 +1,19 @@
 [
     {
         "args": {
-            "characters": "<!-- SkeletonCSS table example -->\n"
+            "characters": "<!-- Bootstrap-4 Button trigger modal -->\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<table class=\"u-full-width\">\n"
+            "characters": "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<thead>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<tr>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<th>Name<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<th>Age<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<th>Height<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<th>Location<\/th>\n"
+            "characters": "Launch demo modal\n"
         },
         "command": "insert"
     },
@@ -53,7 +23,55 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "<\/button>\n\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<!-- Modal -->\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<div class=\"modal-dialog\" role=\"document\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<div class=\"modal-content\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<div class=\"modal-header\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<h5 class=\"modal-title\" id=\"exampleModalLabel\">Modal title<\/h5>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<span aria-hidden=\"true\">&times;<\/span>\n"
         },
         "command": "insert"
     },
@@ -63,43 +81,7 @@
     },
     {
         "args": {
-            "characters": "<\/thead>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<tbody>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<tr>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>Stephen Curry<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>27<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>1,91<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>Akron, OH<\/td>\n"
+            "characters": "<\/button>\n"
         },
         "command": "insert"
     },
@@ -109,37 +91,19 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "<\/div>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "<div class=\"modal-body\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Klay Thompson<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>25<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>2,01<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>Los Angeles, CA<\/td>\n"
+            "characters": "...\n"
         },
         "command": "insert"
     },
@@ -149,7 +113,25 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "<\/div>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<div class=\"modal-footer\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<button type=\"button\" class=\"btn btn-primary\">Save changes<\/button>\n"
         },
         "command": "insert"
     },
@@ -159,7 +141,7 @@
     },
     {
         "args": {
-            "characters": "<\/tbody>\n"
+            "characters": "<\/div>\n"
         },
         "command": "insert"
     },
@@ -169,7 +151,27 @@
     },
     {
         "args": {
-            "characters": "<\/table>"
+            "characters": "<\/div>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": {
+            "characters": "<\/div>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": {
+            "characters": "<\/div>"
         },
         "command": "insert"
     }

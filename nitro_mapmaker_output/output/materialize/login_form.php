@@ -1,155 +1,145 @@
 [
     {
         "args": {
-            "characters": "<!-- SkeletonCSS table example -->\n"
+            "characters": "<div class=\"row\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<table class=\"u-full-width\">\n"
+            "characters": "    <form class=\"col s12\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<thead>\n"
+            "characters": "        <div class=\"row\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "            <form class=\"col s12\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Name<\/th>\n"
+            "characters": "                <div class=\"row\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Age<\/th>\n"
+            "characters": "                    <div class=\"input-field col s12\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Height<\/th>\n"
+            "characters": "                        <input id=\"username\" name=\"username\" type=\"text\" class=\"validate\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Location<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/tr>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/thead>\n"
+            "characters": "                        <label for=\"username\">Username<\/label>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tbody>\n"
+            "characters": "                    <\/div>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "                <\/div>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Stephen Curry<\/td>\n"
+            "characters": "                <div class=\"row\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>27<\/td>\n"
+            "characters": "                    <div class=\"input-field col s12\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>1,91<\/td>\n"
+            "characters": "                        <input id=\"password\" name=\"pword\" type=\"password\" class=\"validate\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Akron, OH<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/tr>\n"
+            "characters": "                        <label for=\"password\">Password<\/label>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "                    <\/div>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Klay Thompson<\/td>\n"
+            "characters": "                <\/div>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>25<\/td>\n"
+            "characters": "                <div class=\"row\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>2,01<\/td>\n"
+            "characters": "                    <div class=\"input-field col s12\">"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Los Angeles, CA<\/td>\n"
+            "characters": "                        <button class=\"btn waves-effect waves-light\" type=\"submit\" name=\"action\">Submit<\/button>"
         },
         "command": "insert"
     },
     {
-        "args": null,
-        "command": "left_delete"
+        "args": {
+            "characters": "                    <\/div>"
+        },
+        "command": "insert"
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "                <\/div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "            <\/form>"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "        <\/div>"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "    <\/form>"
         },
         "command": "insert"
     },
@@ -159,17 +149,7 @@
     },
     {
         "args": {
-            "characters": "<\/tbody>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/table>"
+            "characters": "<\/div>"
         },
         "command": "insert"
     }

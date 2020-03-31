@@ -1,49 +1,37 @@
 [
     {
         "args": {
-            "characters": "<!-- SkeletonCSS table example -->\n"
+            "characters": "<div class=\"row\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<table class=\"u-full-width\">\n"
+            "characters": "<form class=\"col s12\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<thead>\n"
+            "characters": "<div class=\"row\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "<div class=\"input-field col s12\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Name<\/th>\n"
+            "characters": "<input id=\"username\" name=\"username\" type=\"text\" class=\"validate\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Age<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<th>Height<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<th>Location<\/th>\n"
+            "characters": "<label for=\"username\">Username<\/label>\n"
         },
         "command": "insert"
     },
@@ -53,7 +41,7 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "<\/div>\n"
         },
         "command": "insert"
     },
@@ -63,43 +51,31 @@
     },
     {
         "args": {
-            "characters": "<\/thead>\n"
+            "characters": "<\/div>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tbody>\n"
+            "characters": "<div class=\"row\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "<div class=\"input-field col s12\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Stephen Curry<\/td>\n"
+            "characters": "<input id=\"password\" name=\"pword\" type=\"password\" class=\"validate\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>27<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>1,91<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>Akron, OH<\/td>\n"
+            "characters": "<label for=\"password\">Password<\/label>\n"
         },
         "command": "insert"
     },
@@ -109,37 +85,7 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<tr>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>Klay Thompson<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>25<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>2,01<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>Los Angeles, CA<\/td>\n"
+            "characters": "<\/div>\n"
         },
         "command": "insert"
     },
@@ -149,7 +95,25 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "<\/div>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<div class=\"row\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<div class=\"input-field col s12\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<button class=\"btn waves-effect waves-light\" type=\"submit\" name=\"action\">Submit<\/button>\n"
         },
         "command": "insert"
     },
@@ -159,7 +123,7 @@
     },
     {
         "args": {
-            "characters": "<\/tbody>\n"
+            "characters": "<\/div>\n"
         },
         "command": "insert"
     },
@@ -169,7 +133,27 @@
     },
     {
         "args": {
-            "characters": "<\/table>"
+            "characters": "<\/div>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": {
+            "characters": "<\/form>\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": {
+            "characters": "<\/div>"
         },
         "command": "insert"
     }

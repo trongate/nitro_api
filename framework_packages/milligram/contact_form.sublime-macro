@@ -1,105 +1,97 @@
 [
     {
         "args": {
-            "characters": "<!-- SkeletonCSS table example -->\n"
+            "characters": "<!-- Milligram contact us form -->\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<table class=\"u-full-width\">\n"
+            "characters": "<form>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<thead>\n"
+            "characters": "<h1>Contact Us<\/h1>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "<p>Please fill out the form below and then hit 'Submit'<\/p>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Name<\/th>\n"
+            "characters": "<fieldset>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Age<\/th>\n"
+            "characters": "\n<label>Name<\/label>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Height<\/th>\n"
+            "characters": "<input type=\"text\" name=\"your_name\" placeholder=\"Enter your name here\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Location<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/tr>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/thead>\n"
+            "characters": "\n<label>Email Address<\/label>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tbody>\n"
+            "characters": "<input type=\"email\" name=\"email\" placeholder=\"Enter your contact email address here\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "\n<label>Telephone Number<\/label>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Stephen Curry<\/td>\n"
+            "characters": "<input type=\"text\" name=\"telnum\" placeholder=\"Enter your contact telephone number here\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>27<\/td>\n"
+            "characters": "\n<label>Message<\/label>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>1,91<\/td>\n"
+            "characters": "<textarea placeholder=\"Enter your message here...\" name=\"message\"><\/textarea>\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Akron, OH<\/td>\n"
+            "characters": "\n<div class=\"float-right\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<input type=\"checkbox\" id=\"confirmField\">\n"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "<label class=\"label-inline\" for=\"confirmField\">Send a copy to yourself<\/label>\n"
         },
         "command": "insert"
     },
@@ -109,37 +101,19 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "<\/div>\n\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "<input class=\"button-primary\" type=\"submit\" value=\"Send\">\n"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Klay Thompson<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>25<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>2,01<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": {
-            "characters": "<td>Los Angeles, CA<\/td>\n"
+            "characters": "<input class=\"button-outline\" type=\"submit\" value=\"Cancel\">\n"
         },
         "command": "insert"
     },
@@ -149,7 +123,7 @@
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "<\/fieldset>\n"
         },
         "command": "insert"
     },
@@ -159,17 +133,7 @@
     },
     {
         "args": {
-            "characters": "<\/tbody>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/table>"
+            "characters": "<\/form>"
         },
         "command": "insert"
     }

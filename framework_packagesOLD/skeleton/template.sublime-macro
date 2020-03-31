@@ -109,7 +109,7 @@
   },
   {
     "args": {
-      "characters": "\n    <!-- columns should be the immediate child of a .row -->\n"
+      "characters": "    <!-- columns should be the immediate child of a .row -->\n"
     },
     "command": "insert"
   },
@@ -143,7 +143,7 @@
   },
   {
     "args": {
-      "characters": "\n<!-- just use a number and class 'column' or 'columns' -->\n"
+      "characters": "<!-- just use a number and class 'column' or 'columns' -->\n"
     },
     "command": "insert"
   },
@@ -181,7 +181,7 @@
   },
   {
     "args": {
-      "characters": "\n    <!-- there are a few shorthand columns widths as well -->\n"
+      "characters": "    <!-- there are a few shorthand columns widths as well -->\n"
     },
     "command": "insert"
   },
@@ -237,7 +237,7 @@
   },
   {
     "args": {
-      "characters": "</div>\n\n"
+      "characters": "</div>\n"
     },
     "command": "insert"
   },
@@ -257,13 +257,9 @@
   },
   {
     "args": {
-      "characters": "\n    <!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->\n\n"
+      "characters": "<!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->\n"
     },
     "command": "insert"
-  },
-  {
-    "args": null,
-    "command": "left_delete"
   },
   {
     "args": {

@@ -1,171 +1,147 @@
 [
     {
         "args": {
-            "characters": "<!-- SkeletonCSS table example -->\n"
+            "characters": "<!-- table example using Milligram -->"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<table class=\"u-full-width\">\n"
+            "characters": "<table>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<thead>\n"
+            "characters": "    <thead>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "        <tr>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Name<\/th>\n"
+            "characters": "            <th>Name<\/th>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Age<\/th>\n"
+            "characters": "            <th>Age<\/th>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Height<\/th>\n"
+            "characters": "            <th>Height<\/th>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<th>Location<\/th>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/tr>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/thead>\n"
+            "characters": "            <th>Location<\/th>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tbody>\n"
+            "characters": "        <\/tr>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "    <\/thead>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Stephen Curry<\/td>\n"
+            "characters": "    <tbody>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>27<\/td>\n"
+            "characters": "        <tr>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>1,91<\/td>\n"
+            "characters": "            <td>Stephen Curry<\/td>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Akron, OH<\/td>\n"
-        },
-        "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
-    },
-    {
-        "args": {
-            "characters": "<\/tr>\n"
+            "characters": "            <td>27<\/td>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<tr>\n"
+            "characters": "            <td>1,91<\/td>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Klay Thompson<\/td>\n"
+            "characters": "            <td>Akron, OH<\/td>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>25<\/td>\n"
+            "characters": "        <\/tr>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>2,01<\/td>\n"
+            "characters": "        <tr>"
         },
         "command": "insert"
     },
     {
         "args": {
-            "characters": "<td>Los Angeles, CA<\/td>\n"
+            "characters": "            <td>Klay Thompson<\/td>"
         },
         "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
     },
     {
         "args": {
-            "characters": "<\/tr>\n"
+            "characters": "            <td>25<\/td>"
         },
         "command": "insert"
-    },
-    {
-        "args": null,
-        "command": "left_delete"
     },
     {
         "args": {
-            "characters": "<\/tbody>\n"
+            "characters": "            <td>2,01<\/td>"
         },
         "command": "insert"
     },
     {
-        "args": null,
-        "command": "left_delete"
+        "args": {
+            "characters": "            <td>Los Angeles, CA<\/td>"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "        <\/tr>"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "characters": "    <\/tbody>"
+        },
+        "command": "insert"
     },
     {
         "args": {
